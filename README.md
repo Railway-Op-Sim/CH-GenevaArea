@@ -19,4 +19,4 @@ Representation of the railway network around the city of Geneva, Switzerland ope
 ## Data Sources 
 
 - OpenRailwayMap.org
-- [Geneva - La Plaine by Bent Dueholm Nørgaard](https://www.youtube.com/watch?v=v1VVESwEdW0)
+- [YouTube: Geneva - La Plaine by Bent Dueholm Nørgaard](https://www.youtube.com/watch?v=v1VVESwEdW0)
