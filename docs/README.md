@@ -58,17 +58,3 @@ Services depart from a set platform at all SBB stations, the following is provid
 | Coppet  (SL)     | Coppet (SL)   | Annemasse (RE) | Zürich (IC 5) | La Plaine (SL 5) | Brig (IR 90) | Paris Gare de Lyon (TGV) | Lyon Part Dieu (TER) |
 | Annemasse (SL)   | Annemasse (SL) | Genève Aeroport (IC 1, IC 5) | Genève Aeroport (IR 90, IR 15) | | Luzern (IR 15) | Lyon Part Dieu (TER) | Grenoble (TER) |
 | | | | Milan Central (EC) | | | Bellegarde (SL6) | Bellegarde (TER) |
-
-Platform 1 or Platform 2: SL services to/from Coppet from/towards Annemasse via Lancy (bi-directional). Important for easy access to routing towards Sécheron.
-
-Platform 3: Annemasse (RE), Genève Aeroport (IC 1, IC 5)
-
-Platform 4: Zürich (IC 5), Genève Aeroport (IR 90, IR 15), Milan Central (EC)
-
-Platform 5: La Plaine (SL 5)
-
-Platform 6: Brig (IR 90), Luzern (IR 15)
-
-Platform 7: Paris Gare de Lyon (TGV), Lyon Part Dieu (TER), Bellegarde via Vernier (SL6)
-
-Platform 8: Lyon Part Dieu (TER), Grenoble (TER), Bellegarde (TER)
