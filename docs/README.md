@@ -58,3 +58,4 @@ Services depart from a set platform at all SBB stations, the following is provid
 | Coppet  (SL)     | Coppet (SL)   | Annemasse (RE) | Zürich (IC 5) | La Plaine (SL 5) | Brig (IR 90) | Paris Gare de Lyon (TGV) | Lyon Part Dieu (TER) |
 | Annemasse (SL)   | Annemasse (SL) | Genève Aeroport (IC 1, IC 5) | Genève Aeroport (IR 90, IR 15) | | Luzern (IR 15) | Lyon Part Dieu (TER) | Grenoble (TER) |
 | | | | Milan Central (EC) | | St. Maurice (RE) | Bellegarde (SL6) | Bellegarde (TER) |
+| | | | St. Gallen (IC 1) | | | | |
