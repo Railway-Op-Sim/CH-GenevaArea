@@ -1,0 +1,14 @@
+rly_file = "GenevaArea.rly"
+ttb_files = [ "GenevaWeekday0900.ttb",]
+ssn_files = [ "GenevaWeekday0900.ssn",]
+img_files = [ "Geneva.bmp",]
+doc_files = [ "CornavinPlatformAllocations.png", "LemanExpressNetwork.jpg", "README.md",]
+release_date = "2022-02-23"
+version = "1.0.0"
+country_code = "CH"
+factual = true
+description = ""
+display_name = "Genevaarea"
+name = "Genevaarea"
+author = "artemis-beta"
+contributors = []
