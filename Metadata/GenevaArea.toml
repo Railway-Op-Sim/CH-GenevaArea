@@ -11,4 +11,5 @@ description = "Representation of the railway network around the city of Geneva, 
 display_name = "Geneva, Switzerland"
 name = "Geneva Area"
 author = "Krizar"
+signal_position = "left"
 contributors = []

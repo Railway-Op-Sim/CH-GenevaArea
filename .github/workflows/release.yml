@@ -10,7 +10,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
       - name: Get Previous tag
         id: previoustag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
@@ -43,6 +43,7 @@ jobs:
           cp Railway/*.rly $DIR_NAME/Railways/
           mkdir -p $DIR_NAME/Metadata
           cp Metadata/*.toml $DIR_NAME/Metadata/
+          sed -i 's/doc_files\s*=\s*\[\s*.*\s*\]/doc_files = ["README.pdf",]/g' $DIR_NAME/Metadata/*.toml
           if [ -n "$(ls Sessions/*.ssn)" ]; then mkdir -p $DIR_NAME/Sessions/; cp Sessions/*.ssn $DIR_NAME/Sessions/; fi
           if [ -d Graphics ] && [ -n "$(ls Graphics/* || true)" ]; then cp -r Graphics $DIR_NAME/Graphics; rm -rf $DIR_NAME/Graphics/.gitkeep; fi
           cp -r Images $DIR_NAME/Images/
@@ -51,8 +52,9 @@ jobs:
           cp ${{ steps.publish-document.outputs.pdf }} $DIR_NAME/Documentation/README.pdf
           zip -r $DIR_NAME.zip $DIR_NAME
           ls *.zip
+
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
